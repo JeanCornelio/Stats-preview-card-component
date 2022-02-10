@@ -5,16 +5,14 @@
     
     .container {
         display: flex;
-        margin: 250px auto;
-        width: 50%;
-        
-        
+        margin: 225px auto;
+        width: 1000px;
     }
     
     .column1 {
         background: hsl(244, 38%, 16%);
         padding: 40px;
-        width: 100%;
+        width:900px;
         border-radius: 8px 0px 0px 8px;
         max-width: 500px;
     }
@@ -97,7 +95,7 @@
         .container {
             flex-direction: column-reverse;
             margin: 0 auto;
-            width: 50%;
+            width:500px;
            
         }
         .column1 {
@@ -122,34 +120,7 @@
         }
     }
 
-    @media screen and (max-width:800px){
-
-        .container {
-            flex-direction: column-reverse;
-            margin: 0 auto;
-            width: 50%;
-            
-        }
-        .list p{
-            padding: 5px;
-        }
-        .list b{
-            padding: 5px;
-        }
-        .column1 {
-            width: 100%;
-            box-sizing: border-box;
-            border-radius: 0 0 8px 8px;
-        }
-        .column2 {
-            border-radius: 8px 8px 0 0;
-            height: 400px ;
-            width: 100%;
-
-        }
-
-    }
-
+    
     @media screen and (max-width:500px){
         .container {
             flex-direction: column-reverse;
